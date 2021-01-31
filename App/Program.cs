@@ -6,8 +6,7 @@ namespace App
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("CCC");
+            Console.WriteLine("CCCC");
 
         }
     }
