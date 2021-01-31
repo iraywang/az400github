@@ -2,9 +2,9 @@ parameters:
   name: ''
   testFiles: ''
 
-stages:
+stages: 
 - stage: Test_${{ parameters.name }} 
-  jobs：
+  jobs: 
   - job: ${{ parameters.name }}_Windows
     pool: 
       vmImage: vs2017-win2016
