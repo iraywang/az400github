@@ -4,9 +4,11 @@ parameters:
 
 stages: 
 - stage: Test_${{ parameters.name }} 
+
 jobs: 
 - job: ${{ parameters.name }}_Windows
-  pool: 
-    vmImage: vs2017-win2016
+
+pool: 
+  vmImage: vs2017-win2016
 steps:
 - script: echo "This is template yaml! ${{ parameters.testFile }}"
