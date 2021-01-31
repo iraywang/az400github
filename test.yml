@@ -1,8 +1,7 @@
-# define parameters
 parameters:
   name: ''
   testFiles: ''
-# define stages
+
 stages:
 - stage: Test_${{ parameters.name }} 
   jobs：
