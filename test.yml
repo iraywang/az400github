@@ -2,8 +2,8 @@ parameters:
   name: ''
   testFiles: ''
 
-stage: 
-- stage: Test_${{ parameters.name }} 
+  stages: 
+  - stage: Test_${{ parameters.name }} 
   jobs: 
   - job: ${{ parameters.name }}_Windows
     pool: 
