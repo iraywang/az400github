@@ -2,7 +2,7 @@ parameters:
   name: ''
   testFiles: ''
 
-stages: 
+stage: 
 - stage: Test_${{ parameters.name }} 
   jobs: 
   - job: ${{ parameters.name }}_Windows
